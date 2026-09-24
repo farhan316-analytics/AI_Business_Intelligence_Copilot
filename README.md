@@ -155,6 +155,21 @@ Charts are generated dynamically from verified analytics results returned by the
 
 The application also highlights incomplete periods where relevant, such as December 2011, which contains data only through December 9.
 
+## Demo
+
+The application provides an interactive Streamlit interface where users can ask business questions in natural language.
+
+### Example Questions
+
+- What is our total revenue?
+- Show me our monthly sales trend.
+- What are our top 5 products by revenue?
+- Which country generates the most revenue?
+- Which customers generate the most revenue?
+- Which months had the biggest revenue declines?
+
+The Copilot converts these questions into verified analytical workflows and presents the results using business-focused explanations and interactive visualizations.
+
 ## Setup & Installation
 
 1. Clone the repository
@@ -301,3 +316,4 @@ Middlesex University Dubai
 ---
 
 ⭐ If you find this project useful, consider starring the repository.
+
