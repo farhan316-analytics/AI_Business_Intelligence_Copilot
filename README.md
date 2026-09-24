@@ -170,6 +170,37 @@ The application provides an interactive Streamlit interface where users can ask 
 
 The Copilot converts these questions into verified analytical workflows and presents the results using business-focused explanations and interactive visualizations.
 
+### Screenshots
+
+#### Dashboard Overview
+
+![Dashboard Overview](screenshots/dashboard.png)
+
+#### Top Products Analysis
+
+![Top Products Analysis](screenshots/top-products.png)
+
+#### Revenue Decline Analysis
+
+![Revenue Decline Analysis](screenshots/revenue-declines.png)
+
+## Project Highlights
+
+### 🤖 AI-Powered Business Analysis
+Natural-language business questions are interpreted by Qwen 2.5 7B and routed to the appropriate verified analytics tool.
+
+### 🔍 Verified Analytics
+Business metrics are calculated through Python and PostgreSQL rather than generated directly by the LLM.
+
+### 📊 Interactive Visualizations
+Streamlit and Altair provide dynamic charts for revenue trends, country performance, products, customers, and revenue declines.
+
+### 🗄️ Analytical Data Warehouse
+The project uses a PostgreSQL dimensional model with fact and dimension tables designed for business analysis.
+
+### 🛡️ Hallucination-Aware Design
+The Copilot is instructed to use verified results, distinguish facts from interpretation, identify unavailable metrics, and avoid unsupported causal claims.
+
 ## Setup & Installation
 
 1. Clone the repository
